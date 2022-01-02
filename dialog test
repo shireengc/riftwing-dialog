@@ -1,0 +1,87 @@
+[CLIENT]: varlist: param 0: OnDialogRequest
+
+param 1: set_default_color|`o
+
+add_label_with_icon|big|`wRift Wings``|left|11478|                     add_spacer|small|                                                      add_text_input|text_input_time_cycle|Time Dilation Cycle Time:|10|5|   add_checkbox|checkbox_time_cycle|Time Dilation On / Off|1              add_button|button_manual|Instructions|noflags|0|0|                     add_spacer|small|                                                      add_spacer|small|
+
+add_label|big|Wings Style 1|left                                       add_spacer|small|                                                      add_label|small|Wings Color:|left                                      add_text_input|text_input_wings_color0|Wings - R,G,B:|11,11,22|11|
+
+add_spacer|small|
+
+add_label|small|Wings Metal Color:|left
+
+add_text_input|text_input_metal_color0|Metal Color - R,G,B:|78,76,65|11|
+
+add_spacer|small|
+
+add_spacer|small|
+
+add_checkbox|checkbox_open_wings0|Always Open Wings|0
+
+add_checkbox|checkbox_closed_wings0|Always Closed Wings|0
+
+add_spacer|small|
+
+add_checkbox|checkbox_stamp_particle0|Stamp Particle|1
+
+add_spacer|small|
+
+add_checkbox|checkbox_trail0|Trail On / Off|1
+
+add_checkbox|checkbox_trail_1st0|      Portal Trail|0
+
+add_checkbox|checkbox_trail_2nd0|      Starfield Trail|1
+
+add_checkbox|checkbox_trail_3rd0|      Electrical Trail|0
+
+add_spacer|small|
+
+add_label|small|Wings Material:|left
+
+add_spacer|small|
+
+add_checkbox|checkbox_material_1st0|      Feathers|0
+
+add_checkbox|checkbox_material_2nd0|      Blades|1                     add_checkbox|checkbox_material_3rd0|      Scales|0                     add_spacer|small|                                                      add_label|big|Wings Style 2|left                                       add_spacer|small|                                                      add_label|small|Wings Color:|left                                      add_text_input|text_input_wings_color1|Wings - R,G,B:|255,20,137|11|   add_spacer|small|                                                      add_label|small|Wings Metal Color:|left                                add_text_input|text_input_metal_color1|Metal Color - R,G,B:|211,211,211|11|
+
+add_spacer|small|
+
+add_spacer|small|
+
+add_checkbox|checkbox_open_wings1|Always Open Wings|0
+
+add_checkbox|checkbox_closed_wings1|Always Closed Wings|0
+
+add_spacer|small|
+
+add_checkbox|checkbox_stamp_particle1|Stamp Particle|0
+
+add_spacer|small|
+
+add_checkbox|checkbox_trail1|Trail On / Off|1
+
+add_checkbox|checkbox_trail_1st1|      Portal Trail|0
+
+add_checkbox|checkbox_trail_2nd1|      Starfield Trail|1
+
+add_checkbox|checkbox_trail_3rd1|      Electrical Trail|0
+
+    add_spacer|small|
+
+add_label|small|Wings Material:|left
+
+add_spacer|small|
+
+add_checkbox|checkbox_material_1st1|      Feathers|0
+
+add_checkbox|checkbox_material_2nd1|      Blades|1
+
+add_checkbox|checkbox_material_3rd1|      Scales|0
+
+add_spacer|small|
+
+    add_button|restore_default|Restore to Default|noflags|0|0|
+
+end_dialog|dialog_rift_wings|Cancel|Update|
+
+add_quick_exit|
